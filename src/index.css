@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Anton', sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.border-text {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+}
