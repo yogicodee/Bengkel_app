@@ -70,19 +70,19 @@ const App = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="bg-orange-500 p-2 rounded-lg">
-              <Settings className="w-6 h-6 text-black" />
+          <div className="flex items-center gap-3">
+            <div className="bg-orange-600 p-2 rounded-lg shadow-lg shadow-orange-900/20">
+              <Settings className="w-5 h-5 text-black" />
             </div>
-            <span className="text-xl font-black tracking-tighter uppercase italic">Harapan</span>
+            <span className="text-xl font-display uppercase tracking-widest italic text-white">Harapan</span>
           </div>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex gap-8 items-center text-sm font-bold uppercase tracking-widest">
+          <div className="hidden md:flex gap-10 items-center text-[11px] font-bold uppercase tracking-[0.25em] text-gray-400">
             <a href="#hero" className="hover:text-orange-500 transition-colors">Beranda</a>
             <a href="#services" className="hover:text-orange-500 transition-colors">Layanan</a>
-            <a href="#about" className="hover:text-orange-500 transition-colors">Tentang Kami</a>
-            <a href="#contact" className="px-6 py-2 bg-orange-500 text-black hover:bg-orange-400 transition-all rounded-full flex items-center gap-2">
+            <a href="#about" className="hover:text-orange-500 transition-colors">Tentang</a>
+            <a href="#contact" className="px-6 py-2.5 bg-orange-500 text-black hover:bg-orange-400 transition-all rounded-full flex items-center gap-2 font-black">
               Hubungi Kami
             </a>
           </div>
@@ -138,29 +138,28 @@ const App = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="inline-block text-orange-500 font-bold uppercase tracking-[0.3em] mb-4 text-sm border-l-4 border-orange-500 pl-4">
+            <span className="inline-block text-orange-500 font-bold uppercase tracking-[0.4em] mb-6 text-[10px] border-l-2 border-orange-500 pl-4">
               Metalworking & Engineering Specialist
             </span>
-            <h1 className="text-6xl md:text-8xl font-display font-black italic tracking-tighter leading-none mb-8 uppercase">
-              BENGKEL LAS <br />
-              <span className="text-transparent border-text"> & BUBUT </span>
-              <span className="text-orange-500">HARAPAN</span>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black italic tracking-tighter leading-[1.1] mb-8 uppercase">
+              <span className="text-white block opacity-90">BENGKEL LAS</span>
+              <span className="text-orange-500 block">& BUBUT HARAPAN</span>
             </h1>
-            <p className="max-w-xl text-lg text-gray-400 mb-10 leading-relaxed">
-              Membangun solusi logam yang presisi dan tahan lama. Kami melayani kebutuhan Bubut, Las, dan Fabrikasi untuk industri maupun perorangan dengan standar kualitas tertinggi.
+            <p className="max-w-xl text-lg text-gray-400 mb-10 leading-relaxed font-light tracking-wide border-l-2 border-white/10 pl-6">
+              Membangun solusi logam yang presisi dan tahan lama. Kami melayani kebutuhan Bubut, Las, dan Fabrikasi untuk industri dengan standar kualitas tertinggi di Jombang.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-5">
               <a 
                 href="#contact" 
-                className="px-8 py-4 bg-orange-500 text-black font-black uppercase text-sm tracking-widest hover:bg-white transition-all transform hover:-translate-y-1"
+                className="px-10 py-5 bg-orange-500 text-black font-black uppercase text-xs tracking-[0.2em] hover:bg-white transition-all transform hover:-translate-y-1 shadow-lg shadow-orange-500/10"
               >
                 Mulai Diskusi Projek
               </a>
               <a 
                 href="#services" 
-                className="px-8 py-4 border border-white/20 font-black uppercase text-sm tracking-widest hover:bg-white/10 transition-all flex items-center gap-2"
+                className="px-10 py-5 border border-white/10 font-black uppercase text-xs tracking-[0.2em] hover:bg-white/5 transition-all flex items-center gap-3 backdrop-blur-sm"
               >
-                Lihat Layanan <ChevronRight className="w-4 h-4" />
+                Lihat Layanan <ChevronRight className="w-4 h-4 text-orange-500" />
               </a>
             </div>
           </motion.div>
@@ -192,17 +191,17 @@ const App = () => {
       {/* Services Section */}
       <section id="services" className="py-24 bg-[#0a0a0a]">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
             <div className="max-w-2xl">
-              <h2 className="text-4xl md:text-5xl font-display font-black uppercase italic mb-6">
-                LAYANAN <span className="text-orange-500">KAMI.</span>
+              <h2 className="text-4xl md:text-6xl font-display font-black uppercase italic mb-8 tracking-tight leading-none text-balance">
+                LAYANAN <span className="text-orange-500">UNGGULAN KAMI.</span>
               </h2>
-              <p className="text-gray-400">
+              <p className="text-gray-400 text-lg font-light leading-relaxed">
                 Dari perbaikan komponen kecil hingga pengerjaan konstruksi skala besar, kami memiliki keahlian dan peralatan untuk menangani proyek Anda dengan presisi.
               </p>
             </div>
-            <a href="#" className="text-orange-500 font-bold uppercase tracking-widest flex items-center gap-2 hover:underline">
-              Semua Layanan <ExternalLink className="w-4 h-4" />
+            <a href="#" className="text-orange-500 font-bold uppercase text-[10px] tracking-[0.3em] flex items-center gap-3 hover:text-white transition-colors py-2 border-b border-orange-500/20">
+              SEMUA LAYANAN <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
 
@@ -257,17 +256,17 @@ const App = () => {
              </div>
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-4xl md:text-5xl font-display font-black uppercase italic mb-8">
-              KUALITAS YANG <br /> <span className="text-orange-500">TERUJI.</span>
+            <h2 className="text-4xl md:text-6xl font-display font-black uppercase italic mb-10 tracking-tight leading-none text-balance">
+              KUALITAS YANG <br /> <span className="text-orange-500">TERUJI DEKADE.</span>
             </h2>
-            <p className="text-gray-400 text-lg mb-10 leading-relaxed">
+            <p className="text-gray-400 text-lg mb-12 leading-relaxed font-light">
               Selama lebih dari satu dekade, Bengkel Harapan telah menjadi mitra terpercaya bagi industri lokal di Jombang. Kami percaya bahwa setiap inci logam yang kami kerjakan adalah representasi dari komitmen kami terhadap kepuasan pelanggan.
             </p>
-            <div className="space-y-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {features.map((feature, i) => (
-                <div key={i} className="flex items-center gap-4 bg-white/5 p-4 rounded-xl border border-white/5">
-                  <CheckCircle2 className="text-orange-500 w-6 h-6 flex-shrink-0" />
-                  <span className="font-bold text-gray-300">{feature}</span>
+                <div key={i} className="flex items-center gap-4 bg-white/[0.02] p-5 rounded-2xl border border-white/5 group hover:bg-orange-500/5 transition-colors">
+                  <CheckCircle2 className="text-orange-500 w-5 h-5 flex-shrink-0" />
+                  <span className="font-semibold text-gray-400 group-hover:text-white transition-colors text-sm">{feature}</span>
                 </div>
               ))}
             </div>
@@ -285,43 +284,33 @@ const App = () => {
             </div>
 
             <div className="lg:w-1/2 relative z-10">
-              <h2 className="text-black text-5xl md:text-7xl font-display font-black uppercase italic leading-none mb-8">
+              <h2 className="text-black text-5xl md:text-8xl font-display font-black uppercase italic leading-[0.9] mb-10 text-balance">
                 DISKUSIKAN <br /> PROYEK ANDA.
               </h2>
-              <p className="text-black/70 text-lg font-bold mb-12 max-w-md">
+              <p className="text-black/60 text-lg font-medium mb-16 max-w-md italic leading-snug">
                 Hubungi kami hari ini untuk konsultasi gratis atau kunjungi workshop kami di Jombang.
               </p>
 
-              <div className="space-y-6">
-                <div className="flex items-center gap-6 group">
-                  <div className="bg-black p-4 rounded-2xl group-hover:bg-white transition-colors">
+              <div className="grid gap-10">
+                <div className="flex items-center gap-6 group cursor-pointer">
+                  <div className="bg-black p-5 rounded-3xl group-hover:scale-110 transition-transform">
                     <Phone className="w-6 h-6 text-orange-500" />
                   </div>
                   <div>
-                    <p className="text-black/50 text-xs uppercase font-black tracking-widest mb-1">Telepon / WhatsApp</p>
-                    <p className="text-black text-2xl font-black">+62-XXX-XXXX-XXXX</p>
+                    <p className="text-black/40 text-[10px] uppercase font-black tracking-[0.3em] mb-1">WhatsApp Business</p>
+                    <p className="text-black text-2xl font-display tracking-tight">+62-812-3456-7890</p>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-6 group">
-                  <div className="bg-black p-4 rounded-2xl group-hover:bg-white transition-colors">
+                <div className="flex items-center gap-6 group cursor-pointer">
+                  <div className="bg-black p-5 rounded-3xl group-hover:scale-110 transition-transform">
                     <MapPin className="w-6 h-6 text-orange-500" />
                   </div>
                   <div>
-                    <p className="text-black/50 text-xs uppercase font-black tracking-widest mb-1">Lokasi Kami</p>
+                    <p className="text-black/40 text-[10px] uppercase font-black tracking-[0.3em] mb-1">Lokasi Workshop</p>
                     <p className="text-black text-xl font-bold leading-tight">
                       Jl. Irian Jaya No.70, Tebuireng, <br /> Cukir, Diwek, Jombang
                     </p>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-6 group">
-                  <div className="bg-black p-4 rounded-2xl group-hover:bg-white transition-colors">
-                    <Clock className="w-6 h-6 text-orange-500" />
-                  </div>
-                  <div>
-                    <p className="text-black/50 text-xs uppercase font-black tracking-widest mb-1">Jam Operasional</p>
-                    <p className="text-black text-xl font-bold uppercase">Senin - Sabtu | 07:30 - Selesai</p>
                   </div>
                 </div>
               </div>
