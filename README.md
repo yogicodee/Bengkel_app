@@ -27,13 +27,5 @@ Landing page profesional dan modern untuk manajemen identitas digital **Bengkel 
 - `index.html`: Entry point dengan optimasi pemuatan font eksternal.
 - `metadata.json`: Informasi metadata aplikasi untuk keperluan SEO dan identitas AI Studio.
 
-## ⚙️ Cara Menjalankan Secara Lokal
-
-1. Pastikan Anda memiliki Node.js terinstal.
-2. Clone repository atau unduh file.
-3. Jalankan `npm install` untuk menginstal dependensi.
-4. Jalankan `npm run dev` untuk memulai server pengembangan.
-5. Buka `http://localhost:3000` di browser Anda.
-
 ---
 Dikembangkan khusus untuk mendukung digitalisasi UMKM teknik di Jombang.
