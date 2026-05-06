@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bengkel Las & Bubut Harapan - Landing Page
 
-# Run and deploy your AI Studio app
+Landing page profesional dan modern untuk manajemen identitas digital **Bengkel Las & Bubut Harapan** yang berlokasi di Jombang. Aplikasi ini dibangun dengan standar UI/UX modern untuk industri jasa teknik dan permesinan.
 
-This contains everything you need to run your app locally.
+## 🛠️ Fitur Utama
 
-View your app in AI Studio: https://ai.studio/apps/ad3b1298-be44-467a-938b-151bcc730241
+- **Desain Industrial Premium**: Menggunakan palet warna *deep black* dan *safety orange* untuk memberikan kesan profesional dan tangguh.
+- **Responsif Total**: Layout yang optimal di semua perangkat, mulai dari smartphone hingga monitor desktop ultrawide.
+- **Seksi Layanan Interaktif**: Menampilkan kapabilitas bengkel seperti Bubut Presisi, Las Konstruksi, Fabrikasi Mesin, dan Servis Komponen.
+- **Integrasi Kontak & Lokasi**: Memudahkan calon klien untuk menemukan workshop di Jombang melalui peta interaktif dan tombol WhatsApp langsung.
+- **Animasi Performa Tinggi**: Transisi dan efek hover yang halus menggunakan library Motion untuk meningkatkan pengalaman pengguna.
+- **Tipografi Bold**: Penggunaan font khusus (Anton & Inter) untuk keterbacaan dan *branding* yang kuat.
 
-## Run Locally
+## 🚀 Teknologi yang Digunakan
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19
+- **Styling**: Tailwind CSS 4 (dengan konfigurasi tema kustom)
+- **Animasi**: Motion (sebelumnya Framer Motion)
+- **Icons**: Lucide React
+- **Fonts**: Google Fonts Integration (Anton & Inter)
+- **Build Tool**: Vite
 
+## 📁 Struktur Proyek
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- `src/App.tsx`: Komponen utama yang berisi seluruh struktur landing page.
+- `src/index.css`: Konfigurasi Tailwind, variabel tema, dan utilitas tipografi khusus.
+- `index.html`: Entry point dengan optimasi pemuatan font eksternal.
+- `metadata.json`: Informasi metadata aplikasi untuk keperluan SEO dan identitas AI Studio.
+
+## ⚙️ Cara Menjalankan Secara Lokal
+
+1. Pastikan Anda memiliki Node.js terinstal.
+2. Clone repository atau unduh file.
+3. Jalankan `npm install` untuk menginstal dependensi.
+4. Jalankan `npm run dev` untuk memulai server pengembangan.
+5. Buka `http://localhost:3000` di browser Anda.
+
+---
+Dikembangkan khusus untuk mendukung digitalisasi UMKM teknik di Jombang.
