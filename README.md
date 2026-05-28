@@ -1,3 +1,7 @@
+
+<img width="690" height="455" alt="image" src="https://github.com/user-attachments/assets/b370baa9-323f-4add-b7c9-80645b4580d7" />
+
+
 # Bengkel Las & Bubut Harapan - Landing Page
 
 Landing page profesional dan modern untuk manajemen identitas digital **Bengkel Las & Bubut Harapan** yang berlokasi di Jombang. Aplikasi ini dibangun dengan standar UI/UX modern untuk industri jasa teknik dan permesinan.
