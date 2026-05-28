@@ -1,5 +1,5 @@
 
-<p align="center"><img width="690" height="455" alt="image" src="https://github.com/user-attachments/assets/b370baa9-323f-4add-b7c9-80645b4580d7" />
+<p align="center"><img width="690" height="455" alt="image" src="https://github.com/user-attachments/assets/b370baa9-323f-4add-b7c9-80645b4580d7" /></p>
 
 
 # Bengkel Las & Bubut Harapan - Landing Page
